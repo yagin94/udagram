@@ -1,0 +1,2 @@
+aws s3 cp --recursive --acl public-read ./www s3://bucket-udagram1715-0387-3812/
+aws s3 cp --acl public-read --cache-control="max-age=0, no-cache, no-store, must-revalidate" ./www/index.html s3://bucket-udagram1715-0387-3812/
